@@ -1,0 +1,53 @@
+.sponsor-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#28282b;
+    color: aliceblue;
+  }
+  
+  .sponsor-child {
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #28282b;
+  }
+  
+  .sponsor-child-h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #f0ad4e;
+    text-transform: uppercase;
+  }
+  
+  .sponsor-child-p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  
+  .sponsor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .sponsor-item {
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .sponsor-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .sponsor-item img {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: contain;
+  }
+  
+  .sponsor-footer{
+   padding-top: 100px;
+  }

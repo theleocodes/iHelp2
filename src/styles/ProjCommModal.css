@@ -1,0 +1,39 @@
+.pcmodal_main {
+    background-color: rgba(0, 0, 0, 0.475);
+    inset: 0;
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+}
+
+.pcmodal_input_label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500 !important;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.pcmodal_input {
+    background-color: white !important;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.922) !important;
+    font-family: "Poppins", sans-serif;
+    padding: 5px !important;
+    max-width: 85vw !important;
+
+}
+
+@media screen and (max-width: 900px) {
+    .pcmodal_body {
+        max-width: 90vw !important;
+    }
+
+    .pcmodal_sub {
+        max-width: 90vw !important;
+    }
+
+    .pf_projcomm_headerdiv {
+        justify-content: center;
+    }
+
+}

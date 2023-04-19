@@ -1,0 +1,93 @@
+.career-choice-container {
+  background-color: #28282b;
+  padding: 50px;
+}
+
+.career-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.career-header-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.career-choice-card {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.career-choice-card:hover {
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.career-choice-card.selected {
+  border: 2px solid #007bff;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.list-group-flush {
+  padding: 0;
+  margin-top: 20px;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.list-group-item svg {
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.btn-grad {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-grad:hover {
+  background-color: #0069d9;
+}
+
+.btn-gradinactive {
+  background-color: #ccc;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}

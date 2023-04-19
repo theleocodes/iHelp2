@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: "Monsterrat";
+    src: local("Monsterrat"),
+        url("../fonts/Monsterrat.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+        url("../fonts/Poppins.ttf") format("truetype");
+
+}
+
+
+@media screen and (max-width: 1060px) {
+
+    .dv_parent,
+    .pf_techskills_subparent,
+    .cb_rightdiv,
+    .profile_communityheader,
+    .profile_textdiv,
+    .ep_linksheader {
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+}
+
+input:focus,
+textarea:focus {
+    background: #28282b;
+    color: white;
+    -webkit-box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+    -moz-box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+    box-shadow: 1px 1px 27px 6px rgba(168, 127, 243, 0.36) !important;
+}
+
+.editpicbtn {
+    border: 1px solid rgba(255, 255, 255, 0.733);
+}
+
+.pf_socialicons {
+    width: 35px;
+    height: 35px;
+
+    cursor: pointer;
+}
+
+
+/* //* Social Icons */
+.commcard_card_imgdiv img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card_socials {
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+.card_socials_discord {
+    color: #5562ea;
+}
+
+.card_socials_twitter {
+    color: #1da1f2;
+}
+
+.card_socials_github {
+    color: #333;
+}
+
+.card_socials_youtube {
+    color: #ff0000;
+}
+
+.card_socials_globe {
+    color: rgba(0, 0, 255, 0.692);
+}

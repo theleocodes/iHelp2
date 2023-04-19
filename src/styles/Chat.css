@@ -1,0 +1,119 @@
+.container-chat_main_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .chat_subparent {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    height: 80%;
+    margin: auto;
+  }
+  
+  .chat_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .chat_header_p1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .chat_logout_btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5e5e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .chat_logout_btn:hover {
+    background-color: #ff4242;
+  }
+  
+  .chat_box {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .chat_message {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .chat_message_user {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #999999;
+  }
+  
+  .chat_message_text {
+    font-size: 1rem;
+    color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .chat_message.self .chat_message_text {
+    background-color: #e6e6e6;
+  }
+  
+  .chat_message.other .chat_message_text {
+    background-color: #f2f2f2;
+  }
+  
+  .chat_input_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #e6e6e6;
+  }
+  
+  .chat_input {
+    flex: 1;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .chat_send_btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0077ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .chat_send_btn:hover {
+    background-color:  #f59414;
+  }
+  
